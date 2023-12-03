@@ -1,0 +1,13 @@
+{
+  "name": "@node-monorepo/types",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}

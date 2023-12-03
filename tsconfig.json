@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/backend" },
+    { "path": "./packages/shared" },
+    { "path": "./packages/types" }
+  ],
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules"]
+}
