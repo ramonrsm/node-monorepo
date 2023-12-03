@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build:backend && npm run build:shared && npm run build:types",
+    "build": "npm run build:types && npm run build:shared && npm run build:backend",
     "build:backend": "tsc -p packages/backend",
     "build:shared": "tsc -p packages/shared",
     "build:types": "tsc -p packages/types"
